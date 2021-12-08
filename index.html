@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Bootcamp</title>
+    <title>Frontend Bootcamp</title>
     <link rel="stylesheet" href="./css/style.css">
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
@@ -19,7 +19,7 @@
 
     <!-- navbar -->
     <header>
-        <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark p-3">
+        <nav id="home" class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark p-3">
             <div class="container-fluid container">
                 <a class="navbar-brand" href="#">Frontend Bootcamp</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -29,13 +29,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">What You'll Learn</a>
+                            <a class="nav-link active" aria-current="page" href="#learn">What You'll Learn</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Questions</a>
+                            <a class="nav-link active" href="#question">Questions</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Instructors</a>
+                            <a class="nav-link active" href="#instructor">Instructors</a>
                         </li>
                     </ul>
                 </div>
@@ -87,6 +87,7 @@
                 </div>
             </div>
         </section>
+
         <section class="sign-up bg-primary p-5">
             <div class="container">
                 <div class="row d-flex justify-content-center align-items-center ">
@@ -149,7 +150,8 @@
                 </div>
             </div>
         </section>
-        <section class="fundamental-section p-5">
+
+        <section class="fundamental-section p-5" id="learn">
             <div class="container">
                 <div class="row  d-flex justify-content-center align-items-center">
                     <div class="col-lg-6">
@@ -168,6 +170,7 @@
                 </div>
             </div>
         </section>
+
         <section class="react-section p-5 bg-dark text-white">
             <div class="container">
                 <div class="row d-flex justify-content-center align-items-center">
@@ -188,7 +191,8 @@
                 </div>
             </div>
         </section>
-        <section class="frequently-section p-5">
+
+        <section class="frequently-section p-5" id="question">
             <div class="container">
                 <div>
                     <h1 class="text-center pb-5">Frequently Asked Questions</h1>
@@ -247,6 +251,88 @@
                 </div>
             </div>
         </section>
+
+        <section class="instructor bg-primary p-5" id="instructor">
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+                    <div class="col text-center">
+                        <div class="card h-100">
+                            <img src="./img/11 (1).jpg" class=" mx-auto w-50 card-img-top rounded-circle " alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">John Doe</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                                    accusamus nobis sed cupiditate iusto? Quibusdam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="card h-100">
+                            <img src="./img/11.jpg" class="card-img-top rounded-circle mx-auto w-50" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Steve Smith</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                                    accusamus nobis sed cupiditate iusto? Quibusdam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="card h-100">
+                            <img src="./img/12.jpg" class="card-img-top rounded-circle mx-auto w-50" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">John Doe</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                                    accusamus nobis sed cupiditate iusto? Quibusdam.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col text-center">
+                        <div class="card h-100">
+                            <img src="./img/11 (1).jpg" class="rounded-circle card-img-top mx-auto w-50" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Steve Smith</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
+                                    accusamus nobis sed cupiditate iusto? Quibusdam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <section class="contact p-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h2 class="text-center p-3">Contact Info</h2>
+                            <div class="information">
+                                <h4>Main Location: 50 Main st Boston MA</h4>
+                                <hr>
+                                <h4>Enrollment Phone: (555) 555-5555</h4>
+                                <hr>
+                                <h4>Student Phone: (333) 333-3333</h4>
+                                <hr>
+                                <h4>Enrollment Email: (555) enroll@frontendbc.test</h4>
+                                <hr>
+                                <h4>Student Email: student@frontendbc.test</h4>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <img class="img-fluid" src="./img/showcase.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="footer bg-secondary p-5">
+                <div class="container">
+                    <p class="text-center fs-3 text-white">Copyright © 2021 Frontend Bootcamp</p>
+                    <a href="#home" id="back-to-top" class="back-to-top text-white fs-1 text-center" title="home" role="button">
+                        <i class="fa fa-angle-up"></i>
+                    </a>
+                </div>
+            </section>
+        </footer>
     </main>
 
 
@@ -254,6 +340,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+
+    <script>
+
+        const backToTop = document.getElementById('back-to-top');
+
+        window.onscroll = function () {
+            if (window.scrollY === 0) {
+                backToTop.style.display = "none"
+            } else {
+                backToTop.style.display = "block";
+            }
+        };
+    </script>
 </body>
 
 </html>
